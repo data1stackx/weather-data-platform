@@ -1,3 +1,32 @@
+# ======================================
+# Data Engineering / Azure specific
+# ======================================
+
+# Data files
+*.csv
+*.parquet
+*.avro
+*.orc
+*.delta
+
+# Secrets & configs
+.env
+*.env
+*.key
+*.pem
+secrets/
+configs/local/
+
+# Databricks
+.databricks/
+*.dbc
+
+# Power BI
+*.pbix
+
+# Logs
+logs/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
